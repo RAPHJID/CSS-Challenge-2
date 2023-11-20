@@ -29,3 +29,43 @@ body{
 .right p{
     margin-right: 5px;
 }
+.flex-up{
+    display: flex;
+}
+.top{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(4 25%);
+    grid-template-rows: repeat(2 50%);
+    grid-template-areas: "one two three four"
+    "five six seven eight";
+}
+.lower1{
+    grid-area: one;
+}
+.lower2{
+    grid-area: two;
+}
+.lower3{
+    grid-area: three;
+}
+.lower4{
+    grid-area: four;
+}
+.lower5{
+    grid-area: five;
+}
+.lower6{
+    grid-area: six;
+}
+.lower7{
+    grid-area: seven;
+}
+.lower8{
+    grid-area: eight;
+}
