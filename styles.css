@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .navbar{
     display: flex;
@@ -36,7 +37,7 @@ body{
 .top{
     display: flex;
     justify-content: space-between;
-    height: 30vh;
+    height: 40vh;
     align-items: center;    
 }
 .top1{
