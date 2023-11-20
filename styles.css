@@ -31,15 +31,42 @@ body{
 }
 .flex-up{
     display: flex;
+    margin-top: 5px;
 }
 .top{
-    margin-top: 3vh;
     display: flex;
     justify-content: space-between;
-    
+    height: 30vh;
+    align-items: center;    
+}
+.top1{
+    height: 60%;
+    border: none;
+    width: 20%;
+    background-color:hsl(228, 28%, 20%) ;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top1 h5, h3{
+    color: hsl(228, 34%, 66%);
+}
+h1{
+    color: white;
+}
+.top1 p{
+    color: green;
+    margin-top: 5px;
+}
+h3{
+    margin-top: 5px;
 }
 .bottom{
     display: grid;
+    height: 35vh;
+    align-items: center;
     grid-template-columns: repeat(4 25%);
     grid-template-rows: repeat(2 50%);
     grid-template-areas: "one two three four"
@@ -47,25 +74,73 @@ body{
 }
 .lower1{
     grid-area: one;
+    background-color:  hsl(228, 28%, 20%);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+
 }
 .lower2{
     grid-area: two;
+    background-color:  hsl(228, 28%, 20%);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+    
 }
 .lower3{
     grid-area: three;
+    background-color:  hsl(228, 28%, 20%);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
 }
 .lower4{
     grid-area: four;
+    background-color:  hsl(228, 28%, 20%);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
 }
 .lower5{
     grid-area: five;
+    background-color:  hsl(228, 28%, 20%);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
 }
 .lower6{
-    grid-area: six;
+    grid-area: six;background-color:  hsl(228, 28%, 20%);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
 }
 .lower7{
     grid-area: seven;
+    background-color:  hsl(228, 28%, 20%);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
 }
 .lower8{
     grid-area: eight;
+    background-color:  hsl(228, 28%, 20%);
+    width: 90%;
+    height: 70%;
+    border-radius: 5px;
+}
+.flex-down{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+.flex-down p {
+    color: hsl(228, 34%, 66%);
+}
+.flex-down h2{
+    color: white;
+}
+.red{
+    color: red;
 }
