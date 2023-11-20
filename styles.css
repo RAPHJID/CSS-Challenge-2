@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 90vh;
+    width: 80vw;
+    padding: 5%;
+}
+body{
+    background-color: hsl(230, 17%, 14%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar h2{
+    color: white;
+}
+.navbar p{
+    color: hsl(228, 34%, 66%);
+}
+.right{
+    display: flex;
+}
+.right p{
+    margin-right: 5px;
+}
